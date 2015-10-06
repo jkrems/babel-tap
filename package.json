@@ -1,0 +1,29 @@
+{
+  "name": "babel-blue-tap",
+  "version": "0.0.0",
+  "description": "tap with babel and promise support",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "./cli.js test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkrems/babel-blue-tap.git"
+  },
+  "keywords": [
+    "babel",
+    "tap",
+    "promise"
+  ],
+  "author": "Jan Krems <jan.krems@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/jkrems/babel-blue-tap/issues"
+  },
+  "homepage": "https://github.com/jkrems/babel-blue-tap#readme",
+  "dependencies": {
+    "babel": "*",
+    "tap": "*"
+  }
+}

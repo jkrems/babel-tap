@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+'use strict';
+process.execPath = require.resolve('.bin/babel-node');
+require('tap/bin/run.js');
