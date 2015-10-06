@@ -1,8 +1,6 @@
 'use strict';
 
-import {test} from './';
-
-console.error(test);
+import {testAsync} from './';
 
 function eventualOne() {
   return new Promise(resolve => {
@@ -10,6 +8,6 @@ function eventualOne() {
   });
 }
 
-test('my test', async t => {
+testAsync('my test', async t => {
   t.equal(await eventualOne(), 1);
 });
