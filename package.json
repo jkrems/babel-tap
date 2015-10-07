@@ -1,6 +1,6 @@
 {
   "name": "babel-tap",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "tap with babel and promise support",
   "main": "index.js",
   "bin": "cli.js",
