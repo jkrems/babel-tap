@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/testiumjs/babel-tap#readme",
   "dependencies": {
-    "babel": "*",
+    "babel": "^5.8.29",
     "tap": ">=2.1.0"
   }
 }
