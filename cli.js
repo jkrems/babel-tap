@@ -1,4 +1,5 @@
 #!/usr/bin/env node
 'use strict';
-process.execPath = require.resolve('.bin/babel-node');
+var which = require('which');
+process.execPath = which.sync('babel-node');
 require('tap/bin/run.js');
